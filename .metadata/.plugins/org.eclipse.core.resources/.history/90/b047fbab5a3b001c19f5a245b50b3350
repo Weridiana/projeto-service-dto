@@ -1,0 +1,28 @@
+package com.example.demo;
+
+public class PessoaJuridica extends Fornecedor {
+	
+	private String cnpj;
+	private String inscricaoEstadual;
+	private String razaoSocial;
+	
+	public String getEnpj() {
+		return cnpj;
+	}
+	public void setEnpj(String enpj) {
+		this.cnpj = enpj;
+	}
+	public String getInscricaoEstadual() {
+		return inscricaoEstadual;
+	}
+	public void setInscricaoEstadual(String inscricaoEstadual) {
+		this.inscricaoEstadual = inscricaoEstadual;
+	}
+	public String getRazaoSocial() {
+		return razaoSocial;
+	}
+	public void setRazaoSocial(String razaoSocial) {
+		this.razaoSocial = razaoSocial;
+	}
+
+}

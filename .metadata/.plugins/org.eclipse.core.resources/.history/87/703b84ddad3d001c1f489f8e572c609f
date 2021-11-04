@@ -1,0 +1,18 @@
+package br.com.serratec.backend.model;
+
+public class Aluno {
+	private Long matricula;
+	private String nome;
+	private String telefone;
+	private String email;
+	public Aluno(Long matricula, String nome, String telefone, String email) {
+		super();
+		this.matricula = matricula;
+		this.nome = nome;
+		this.telefone = telefone;
+		this.email = email;
+	}
+	
+	
+
+}

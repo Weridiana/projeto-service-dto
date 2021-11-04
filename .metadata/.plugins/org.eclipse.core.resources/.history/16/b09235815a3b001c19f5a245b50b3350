@@ -1,0 +1,9 @@
+package com.example.demo;
+
+public class PessoaJuridica extends Fornecedor {
+	
+	private String enpj;
+	private String inscricaoEstadual;
+	private String razaoSocial;
+
+}
